@@ -1,0 +1,29 @@
+content{
+	display: block;
+	margin: 0 auto;
+	width: 990px;
+	height: auto;
+	background: pink;
+}
+
+content .add-mana{
+	float: right;
+	font-size: 15px;
+	color: blue;
+}
+
+content .address{
+	width: 15px;
+	height: 15px;
+	float: left;
+} 
+
+content .address label{
+}
+
+content .add-change{
+	float: right;
+	font-size: 15px;
+	color: blue;
+}
+

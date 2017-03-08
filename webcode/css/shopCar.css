@@ -1,0 +1,158 @@
+content{
+	margin-top: 45px;
+}
+
+content h1{
+	font-size: 70px;
+	margin-left: 100px;
+	margin-bottom: 30px;
+}
+
+content table{
+	border: 2px solid #AAAAAA;
+}
+
+content .prod-list table{
+	height: auto;
+	width: 990px;
+	text-align: center;
+	border-spacing: 0px;
+	margin: 0 auto;
+}
+
+content .prod-list table td{
+	border-bottom: 1px solid #AAA;
+}
+
+content .prod-list table .td-check{
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
+
+content .prod-list table .td-prod{
+	width: 280px;
+	height: 80px;
+}
+
+content .prod-list table .td-prod img{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #AAA;
+	background: #AAAAAA;
+}
+
+content .prod-list table .td-prod p{
+	width: 150px;
+	float: right;
+	margin: 5px 30px auto auto;
+}
+
+content .prod-list table .td-dec{
+	width: 140px;
+	height: 80px;
+}
+
+content .prod-list table .td-price{
+	width: 100px;
+	height: 80px;
+}
+
+content .prod-list table .td-num{
+	width: 140px;
+	height: 80px;
+}
+
+content .prod-list table .td-num input{
+	width: 60px;
+	margin: 0 5px;
+	float: left;
+}
+
+content .prod-list table .td-num a{
+	display: block;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+	float: left;
+	border: 1px solid #AAAAAA;
+}
+
+content .prod-list table .td-money{
+	width: 100px;
+	height: 80px;
+}
+
+content .prod-list table .td-edit{
+	width: 120px;
+	height: 80px;
+}
+
+content .prod-list table .td-edit input{
+	width: 40px;
+	height: 20px;
+	float: left;
+	margin: 0 10px;
+}
+
+content .payBox{
+	width: 990px;
+	height: 52px;
+	margin: 20px auto;
+	border: 2px solid #AAAAAA;
+}
+
+content .payBox input{
+	float: left;
+	margin-top: 18px;
+	margin-left: 10px;
+}
+
+content .payBox p{
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+content .payBox a{
+	display: block;
+	float: left; 
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+content .payBox a:hover{
+	color:red;
+}
+
+content .payBox div{
+	float: right;
+}
+
+content .payBox div span{
+	float: left;
+	font-size: 18px;
+	font-weight: bolder;
+	margin: 20px auto
+}
+
+content .payBox #countPay{
+	float: left;
+	width: 80px;
+	height: 50px;
+	font-size: 30px;
+	padding-top: 10px;
+	font-weight: bolder;
+}
+
+#payBtn{
+	width: 96px;
+	height: 52px;
+	background: #E64346;
+	color: white;
+	font-size: 25px;
+	font-weight: bolder;
+	border: none;
+	float: left;
+	margin: 0;
+}

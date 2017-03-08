@@ -1,0 +1,21 @@
+body,div,h1,h2,h3,h4,h5,h6,input,img,ol,ul,li,table,dl,dt,p{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul,li,ol{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+input{
+	outline: none;
+}
+
+body{
+	background: white;
+}

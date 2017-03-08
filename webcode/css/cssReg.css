@@ -1,0 +1,112 @@
+body,header,footer,content,h1,img,ul,li,form{
+	margin: 0px;
+	padding: 0px;
+}
+
+li{
+	list-style: none;
+}
+
+header{
+	width: 1250px;
+	height: 110px;
+	margin: 0 auto;
+}
+
+header .loginLogo{
+	width: 75px;
+	height: 105px;
+	margin-left: 40px;
+}
+
+header .loginText{
+	vertical-align: top;
+	width: 200px;
+	height: 90px;
+	margin: 10px 10px;
+}
+
+header h1{
+	display: inline-block;
+	vertical-align: top;
+	width: 500px;
+	height: 90px;
+	margin: 30px 30px;
+	float: right;
+	font-size: 60px;
+	color: black;
+}
+
+.regBox{
+	width: 1000px;
+	height: 550px;
+	border-bottom: 1px solid #555;
+	margin: 0 auto;
+}
+
+.regBox table{
+	width: 50px;
+	height: 450px;
+}
+
+.regBox .label{
+	width: 100px;
+	font-size: 25px;
+	text-align: center;
+}
+
+.regBox input{
+	width: 400px;
+	height: 30px;
+}
+
+#regSureBtn{
+	float: left;
+	width: 200px;
+	height: 40px;
+	font-size: 17px;
+	background: green;
+	border: 2px solid black;
+	margin-left: 30px;
+}
+
+#regCancelBtn{
+	width: 200px;
+	height: 40px;
+	float: right;
+	font-size: 17px;
+	background: green;
+	border: 2px solid black;
+	margin-right: 30px;
+}
+
+footer{
+	width: 1250px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+footer .footerList{
+	display: block;
+	width: 1070px;
+	height: 30px;
+	margin: 15px auto;
+}
+
+footer .footerList li{
+	float: left;
+	width: 100px;
+	text-align: center;
+	margin-left: 30px;
+}
+
+footer p{
+	width: 500px;
+	text-align: center;
+	margin: 0 325px;
+}
+
+body{
+	background: url(../img/bac.jpg);
+	background-size:cover
+}

@@ -1,0 +1,189 @@
+content{
+	display: block;
+	width: 1250px;
+	height: 1000px;
+	margin: 20px auto;
+}
+
+content .contProduct{
+	width: 400px;
+	height: 400px;
+	float: left;
+	border: 4px solid #555;
+}
+
+content .prodList{
+	clear: both;
+	width: 400px;
+	margin-top: 4px;
+	height: 84px;
+}
+
+content .prodList form{
+	width: 336px;
+	height: 80px;
+	margin-top: 4px;
+	margin-left: 33px;
+	overflow: hidden;
+}
+
+content .prodList form ul{
+	width: 740px;
+	height: 80px;
+	margin-top: 4px;
+}
+
+content .prodList form img{
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin: auto 2px;
+}
+
+content .prodList input{
+	width: 20px;
+	height: 40px;
+	background: #555;
+	border: none;
+}
+
+content .prodList .btnUp{
+	background: url(../img/icon.png) 0px -64px no-repeat;
+	float: left;
+	margin: -65px auto auto 4px;
+}
+
+content .prodList .btnDown{
+	transform: rotate(180deg);
+	background: url(../img/icon.png) 0px -64px no-repeat;
+	float: right;
+	margin: -65px auto auto 4px;
+}
+
+content h3{
+	width: 750px;
+	height: 30px;
+	float: right;
+	margin: -480px 70px; auto auto;
+}
+
+content .des{
+	width: 700px;
+	height: 100px;
+	font-size: 15px;
+	float: right;
+	margin: -450px 115px auto auto;
+}
+
+content strong{
+	width: 750px;
+	height: 40px;
+	float: right;
+	margin: -210px auto auto auto;
+}
+
+content .buyBtn{
+	width: 250px;
+	height: 40px;
+	float: right;
+	margin: -60px 380px auto auto;
+	background: red;
+	border: none;
+}
+
+content .addBtn{
+	width: 250px;
+	height: 40px;
+	float: right;
+	margin: -60px 100px auto auto;
+	background: red;
+	border: none;
+}
+
+content .contLeft{
+	width: 250px;
+	height: 800px;
+	float: left;
+	margin-top: 40px;
+}
+
+.contLeft .leftProduct{
+	width: 250px;
+	border: 1px solid #555;
+	border-top: none;
+	height: auto;
+}
+
+.contLeft dt{
+	width: 250px;
+	height: 25px;
+	padding-top: 5px;
+	color: white;
+	background: #49171a;
+}
+
+.contLeft .leftProduct img{
+	width: 80px;
+	height: 80px;
+	background: red;
+}
+
+.contLeft .leftProduct p{
+	float: right;
+	margin-top: 10px;
+	margin-right: 60px;
+}
+
+.contLeft .leftProduct a{
+	float: right;
+	margin-top: -45px;
+	margin-right: 60px;
+}
+
+.contLeft .leftKonw{
+	width: 250px;
+	border: 1px solid #555;
+	border-top: none;
+	margin-top: 10px;
+	height: auto;
+}
+
+.contLeft .leftKonw dd{
+	margin-top: 15px;
+}
+
+content .contRight{
+	width: 960px;
+	height: auto;
+	float: right;
+	margin-top: 40px;
+	background: white;
+}
+
+content .contRight input{
+	width: 320px;
+	height: 40px;
+	border: none;
+}
+
+content .contRight div{
+	width: 960px;
+	height: auto;
+	display: none;
+	border: 1px solid #555;
+	border-top: none;
+}
+
+content .contRight div p{
+	width: 900px;
+	height: auto;
+	font-size: 18px;
+	line-height: 25px;
+	margin: 0 auto;
+	background: white;
+}
+
+#contdes img{
+	margin-left: 50px;
+}
+
