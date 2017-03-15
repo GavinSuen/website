@@ -1,11 +1,50 @@
 /* Public CSS Document */
+header{
+	display: block;
+	width: 960px;
+	height: 30px;
+	margin: 0 auto 10px auto;
+	border-radius: 0 0 6px 6px;
+}
+
+nav{
+	width: 960px;
+	height: 90px;
+	display: block;
+	border: 1px solid #e5e5e5;
+	border-radius: 6px;
+	margin: 0 auto 10px auto;
+}
+
+content{
+	width: 960px;
+	display: block;
+	margin: 0 auto 10px auto;
+}
+
+section{
+	width: 348px;
+	height: 420px;
+	margin-bottom: 10px;
+	border: 1px solid #e5e5e5;
+	border-radius: 6px;
+}
+
+footer{
+	width: 960px;
+	height: 78px;
+	border: 1px solid #e5e5e5;
+	border-radius: 6px;
+	margin: 0 auto 30px auto;
+}
+
 .clear{
 	zoom: 1 ; /* for IE6/7 */
 }
 
 .clear:after{
 	clear: both;
-	content: "";
+	content: ".";
 	display: block;
 	width: 0;
 	height: 0;
@@ -22,10 +61,17 @@
 
 .ad{
 	display: inline-block;
-	width: 710px;
-	height: 88px;
 	border-radius: 6px;
 	margin-bottom: 10px;
-	overflow: hidden;
-	background: blue;
+}
+
+.gradients{
+	background: -webkit-linear-gradient(bottom,#fafafa,#fff);
+	background: -o-linear-gradient(bottom,#fafafa,#fff);
+	background: -ms-linear-gradient(bottom,#fafafa,#fff);
+	background: linear-gradient(bottom,#fafafa,#fff);
+}
+
+.borders{
+	border: 1px solid #e5e5e5;
 }
