@@ -1,18 +1,145 @@
 /* CSS Document */
 
+/* 头部城市部分 */
+.lHight{
+	line-height: 30px;
+}
+
+.headAdress a{
+	padding: 2px 8px;
+	color: #999999;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	margin-left: 5px;
+}
+
+.headAdress .active{
+	color: red;
+}
+
+.headAdress a:hover{
+	color: red;
+}
+
+.headBar a{
+	color: #666666;
+}
+
+.headBar a:hover{
+	text-decoration: underline;
+}
+
+/* 头部导航部分 */
+.navigator ul{
+	display: block;
+	width: 933px;
+	height: 90px;
+	margin: 0 auto;
+}
+
+.navigator a{
+	display: block;
+	text-align: center;
+	float: left;
+	margin: 10px 3px;
+	width: 64px;
+	height: 70px;
+}
+
+.navigator .bag1{	
+	background: url(../img/nav.png) 0 0;
+}
+.navigator .bag1:hover{	
+	background: url(../img/nav.png) 0 -70px;
+}
+
+.navigator .bag2{
+	background: url(../img/nav.png) -64px 0;
+}
+.navigator .bag2:hover{	
+	background: url(../img/nav.png) -64px -70px;
+}
+
+.navigator .bag3{
+	background: url(../img/nav.png) -128px 0;
+}
+.navigator .bag3:hover{	
+	background: url(../img/nav.png) -123px -70px;
+}
+
+.navigator .bag4{
+	background: url(../img/nav.png) -192px 0;
+}
+.navigator .bag4:hover{	
+	background: url(../img/nav.png) -192px -70px;
+}
+
+.navigator .bag5{
+	background: url(../img/nav.png) -256px 0;
+}
+.navigator .bag5:hover{
+	background: url(../img/nav.png) -256px -70px;
+}
+
+
+.navigator .bag6{
+	background: url(../img/nav.png) -320px 0;
+}
+.navigator .bag6:hover{
+	background: url(../img/nav.png) -320px -70px;
+}
+
+
+.navigator .bag7{
+	background: url(../img/nav.png) -384px 0;
+}
+.navigator .bag7:hover{
+	background: url(../img/nav.png) -384px -70px;
+}
+
+
+.navigator .bag8{
+	background: url(../img/nav.png) -448px 0;
+}
+.navigator .bag8:hover{
+	background: url(../img/nav.png) -448px -70px;
+}
+
+
+.navigator .bag9{
+	background: url(../img/nav.png) -512px 0;
+}
+.navigator .bag9:hover{
+	background: url(../img/nav.png) -512px -70px;
+}
+
+
+.navigator .bag10{
+	background: url(../img/nav.png) -576px 0;
+}
+.navigator .bag10:hover{
+	background: url(../img/nav.png) -576px -70px;
+}
+
+.navigator .logo{
+	width: 223px;
+	height: 62px;
+	margin: 10px 5px;
+	background: url(../img/logo.png);
+}
+
+
+/* 头部搜索栏部分 */
 #search{
 	width: 960px;
 	height: 92px;
 	margin: 0 auto 10px auto;
 }
 
-
 #contMain{
 	width: 710px;
 	border: none;
 }
-
-
 
 #contSide{
 	width: 240px;

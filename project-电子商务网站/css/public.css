@@ -38,6 +38,7 @@ footer{
 	margin: 0 auto 30px auto;
 }
 
+/* 定义清除浮动 */
 .clear{
 	zoom: 1 ; /* for IE6/7 */
 }
@@ -51,20 +52,24 @@ footer{
 	visibility: hidden;  /* for FF/chorme/opera/IE8 */
 }
 
+/* 定义左浮动 */
 .fl{
 	float: left;
 }
 
+/* 定义右浮动 */
 .fr{
 	float: right;
 }
 
+/* 定义广告公共样式 */
 .ad{
 	display: inline-block;
 	border-radius: 6px;
 	margin-bottom: 10px;
 }
 
+/* 定义渐变公共样式 */
 .gradients{
 	background: -webkit-linear-gradient(bottom,#fafafa,#fff);
 	background: -o-linear-gradient(bottom,#fafafa,#fff);
@@ -72,6 +77,7 @@ footer{
 	background: linear-gradient(bottom,#fafafa,#fff);
 }
 
+/* 定义边框公共样式 */
 .borders{
 	border: 1px solid #e5e5e5;
 }
