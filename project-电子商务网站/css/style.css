@@ -32,7 +32,7 @@
 /* 头部导航部分 */
 .navigator ul{
 	display: block;
-	width: 933px;
+	width: 963px;
 	height: 90px;
 	margin: 0 auto;
 }
@@ -43,97 +43,134 @@
 	float: left;
 	margin: 10px 3px;
 	width: 64px;
-	height: 70px;
+	height: 20px;
+	color: #333333;
+	padding-top:50px;
+}
+
+.navigator a:hover{
+	text-decoration: underline;
+	color: #d91002;
 }
 
 .navigator .bag1{	
-	background: url(../img/nav.png) 0 0;
+	background: url(../img/nav.png) 0 0 no-repeat;
 }
 .navigator .bag1:hover{	
-	background: url(../img/nav.png) 0 -70px;
+	background: url(../img/nav.png) 0 -70px no-repeat;
 }
 
 .navigator .bag2{
-	background: url(../img/nav.png) -64px 0;
+	background: url(../img/nav.png) -64px 0 no-repeat;
 }
 .navigator .bag2:hover{	
-	background: url(../img/nav.png) -64px -70px;
+	background: url(../img/nav.png) -64px -70px no-repeat;
 }
 
 .navigator .bag3{
-	background: url(../img/nav.png) -128px 0;
+	background: url(../img/nav.png) -128px 0 no-repeat;
 }
 .navigator .bag3:hover{	
-	background: url(../img/nav.png) -123px -70px;
+	background: url(../img/nav.png) -128px -70px no-repeat;
 }
 
 .navigator .bag4{
-	background: url(../img/nav.png) -192px 0;
+	background: url(../img/nav.png) -194px 0 no-repeat;
 }
 .navigator .bag4:hover{	
-	background: url(../img/nav.png) -192px -70px;
+	background: url(../img/nav.png) -194px -70px no-repeat;
 }
 
 .navigator .bag5{
-	background: url(../img/nav.png) -256px 0;
+	background: url(../img/nav.png) -260px 0 no-repeat;
 }
 .navigator .bag5:hover{
-	background: url(../img/nav.png) -256px -70px;
+	background: url(../img/nav.png) -260px -70px no-repeat;
 }
-
 
 .navigator .bag6{
-	background: url(../img/nav.png) -320px 0;
+	background: url(../img/nav.png) -329px 0 no-repeat;
 }
 .navigator .bag6:hover{
-	background: url(../img/nav.png) -320px -70px;
+	background: url(../img/nav.png) -329px -70px no-repeat;
 }
-
 
 .navigator .bag7{
-	background: url(../img/nav.png) -384px 0;
+	background: url(../img/nav.png) -393px 0 no-repeat;
 }
 .navigator .bag7:hover{
-	background: url(../img/nav.png) -384px -70px;
+	background: url(../img/nav.png) -393px -70px no-repeat;
 }
-
 
 .navigator .bag8{
-	background: url(../img/nav.png) -448px 0;
+	background: url(../img/nav.png) -457px 0 no-repeat;
 }
 .navigator .bag8:hover{
-	background: url(../img/nav.png) -448px -70px;
+	background: url(../img/nav.png) -457px -70px no-repeat;
 }
-
 
 .navigator .bag9{
-	background: url(../img/nav.png) -512px 0;
+	background: url(../img/nav.png) -521px 0 no-repeat;
 }
 .navigator .bag9:hover{
-	background: url(../img/nav.png) -512px -70px;
+	background: url(../img/nav.png) -521px -70px no-repeat;
 }
-
 
 .navigator .bag10{
-	background: url(../img/nav.png) -576px 0;
+	background: url(../img/nav.png) -585px 0 no-repeat;
 }
 .navigator .bag10:hover{
-	background: url(../img/nav.png) -576px -70px;
+	background: url(../img/nav.png) -585px -70px no-repeat;
 }
 
 .navigator .logo{
 	width: 223px;
 	height: 62px;
 	margin: 10px 5px;
-	background: url(../img/logo.png);
+	background: url(../img/logo.png) no-repeat;
 }
-
 
 /* 头部搜索栏部分 */
 #search{
 	width: 960px;
 	height: 92px;
+	position: relative;
 	margin: 0 auto 10px auto;
+}
+
+.searchBox{
+	width: 962px;
+	height: 64px;
+	position: absolute;
+	top: 16px;
+	left: -1px;
+	border: none;
+	z-index: 2;
+	background: #e21c01;
+}
+
+.searchBox .searchTab{
+	position: absolute;
+	left: 226px;
+	top: -31.5px;
+}
+
+.searchBox .searchTab li{
+	float: left;
+	display: block;
+	font-size: 14px;
+	padding: 6px 24px;
+	margin-right: 1px;
+	border: 1px solid #f8d0bf;
+	border-bottom: none;
+	border-radius: 5px 5px 0 0;
+	box-shadow: 2px 0px 2px rgba(0,0,0,.1);
+}
+
+.searchBox .searchTab .active{
+	background: #e21c01;
+	color: #fff;
+	border: 1px solid #e21c01;
 }
 
 #contMain{
