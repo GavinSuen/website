@@ -194,12 +194,15 @@
 }
 
 #searchTxt{
-	width: 404px;
+	width: 394px;
 	height: 24px;
 	border: none;
 	vertical-align: top;
 	border-radius: 3px;
 	background: #fff;
+	padding: 0 5px; 
+	text-shadow: 2px 2px 2px rgba(0,0,0,.1);
+	box-shadow: inset -2px 2px 2px rgba(0,0,0,.2);
 }
 
 #searchBtn{
@@ -215,9 +218,30 @@
 	font-size: 12px;
 	overflow: hidden;
 	color: #fff;
+	text-shadow: 2px 2px 2px rgba(0,0,0,.4);
 	position: relative;
 	top: 15px;
 	left: 18px;
+}
+
+#info a{
+		color: #fff;
+}
+
+#info a:hover{
+	color: #aa9;
+}
+
+.sec_tr_top{
+	position: absolute;
+	top: 72px;
+	left: 624px;
+}
+
+.sec_tr_btm{
+	position: absolute;
+	top: 83px;
+	left: 624px;
 }
 
 #contMain{

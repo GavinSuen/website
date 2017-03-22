@@ -20,6 +20,45 @@ content{
 	margin: 0 auto 10px auto;
 }
 
+.tabArea{
+	border: none;
+}
+
+.tabArea .tab{
+}
+
+.tabArea .tab li{
+	display: block;
+	width: 170px;
+	height: 34px;
+	margin-right: 1px;
+	position: relative;
+	z-index: 1;
+	top: 1px;
+	border-bottom: none;
+	border-radius: 5px 5px 0 0;
+}
+
+.tabArea .tab .click{
+	background: #fff;
+	z-index: 2;
+}
+
+.tabArea .tabBox{
+	clear: both;
+	width: 343px;
+	height: 200px;
+	float: left;
+	position: relative;
+	z-index: 1;
+	display: none;
+	border-radius: 0 0 5px 5px; 
+}
+
+.tabArea .active{
+	display: block;
+}
+
 section{
 	width: 348px;
 	height: 420px;
@@ -78,4 +117,31 @@ footer{
 /* 定义边框公共样式 */
 .borders{
 	border: 1px solid #e5e5e5;
+}
+
+/* 定义三角形标志样式 */
+
+/* 向上 */
+.triangleTop{
+	width: 0;
+	height: 0;
+	cursor: pointer;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 6px solid #e21c01;
+}
+/* 向下 */
+.triangleBottom{
+	width: 0;
+	height: 0;
+	cursor: pointer;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 6px solid #e21c01;	
+}
+
+.triangleTop:hover,
+.triangleBottom:hover{
+	border-top-color: yellow;
+	border-bottom-color: yellow;
 }
