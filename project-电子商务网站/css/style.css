@@ -133,7 +133,7 @@
 /* 头部搜索栏部分 */
 #search{
 	width: 960px;
-	height: 92px;
+	height: 116px;
 	position: relative;
 	margin: 0 auto 10px auto;
 }
@@ -151,7 +151,10 @@
 
 .searchBox .imgInfo{
 	width: 156px;
-	height: 115px; 
+	height: 115px;
+	position: absolute;
+	top: -20px;
+	left: 32px; 
 }
 
 .searchBox .searchTab{
@@ -182,6 +185,39 @@
 	border: 1px solid #c40d0e;
 	border-bottom: 1px solid #e21c01; 
 	box-shadow: none;
+}
+
+#searchArea{
+	float: left;
+	margin-left: 226px;
+	margin-top: 20px;
+}
+
+#searchTxt{
+	width: 404px;
+	height: 24px;
+	border: none;
+	vertical-align: top;
+	border-radius: 3px;
+	background: #fff;
+}
+
+#searchBtn{
+	width: 63px;
+	height: 26px;
+	border: none;
+	margin-left: 10px;
+	background: url(../img/search_btn.png);
+}
+
+#info{
+	width: 202px;
+	font-size: 12px;
+	overflow: hidden;
+	color: #fff;
+	position: relative;
+	top: 15px;
+	left: 18px;
 }
 
 #contMain{
