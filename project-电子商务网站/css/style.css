@@ -219,9 +219,9 @@
 	overflow: hidden;
 	color: #fff;
 	text-shadow: 2px 2px 2px rgba(0,0,0,.4);
-	position: relative;
+	position: absolute;
 	top: 15px;
-	left: 18px;
+	right: 45px;
 }
 
 #info a{
@@ -232,23 +232,132 @@
 	color: #aa9;
 }
 
+.warp{
+	position: absolute;
+	width: 344px;
+	height: 30px;
+	left: 226px;
+	bottom: 0;
+	padding-left: 60px;
+	background: url(../img/icon.png) no-repeat 0 -126px;
+}
+
+.warp .update{
+	width: 398px;
+}
+
+.warp .update li{
+	height: 30px; 
+	line-height: 30px;
+	color: #000000;
+}
+
+.warp .update li strong{
+	font-weight: normal;
+}
+.warp .update li strong a{
+	color: #d30703;
+}
+
+.warp .update li span{
+	color: #999999;
+}
+
+.warp .update li a{
+	color: #000;
+}
+
+.warp .update li a:hover{
+	text-decoration: underline;
+}
+
 .sec_tr_top{
 	position: absolute;
-	top: 72px;
-	left: 624px;
+	right: 0;
+	top: 7px;
 }
 
 .sec_tr_btm{
 	position: absolute;
-	top: 83px;
-	left: 624px;
+	right: 0;
+	top: 18px;
 }
 
+/* 主要内容*/
 #contMain{
 	width: 710px;
 	border: none;
 }
 
+#contMain section{
+	position: relative;
+}
+
+#contMain section .videoTitle{
+	width: 318px;
+	height: 42px;
+	line-height: 42px;
+	font-size: 18px;
+	font-family: "Arial";
+	color: #d90000;
+	text-shadow: 1px 0px 1px rgba(217,0,0,.2);
+	margin: 0 auto;
+}
+
+#contMain section .videoTitle i{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: 9px;
+	left: 120px;
+	background: url(../img/icon.png) no-repeat -106px -12px;
+}
+
+#contMain section .video{
+	width: 318px;
+	height: 284px;
+	margin: 0 auto 13px auto;
+	background: pink;
+}
+
+.videoInfo{
+	display: block;
+	width: 232px;
+	height: 66px;
+	margin: 0 auto;
+	padding-left: 86px;
+	background: url(../img/hot.jpg) no-repeat;
+}
+
+.videoInfo li{
+	display: block;
+	line-height: 20px;
+	width: 228px;
+	text-indent: 4px;
+}
+
+.videoInfo li a{
+	color: #4d4d4d;
+}
+
+.videoInfo li a:hover{
+	text-decoration: underline;
+}
+
+#contMain .tabArea .tab{
+	
+}
+
+#contMain .tabArea .tab li{
+
+}
+
+#contMain .tabArea .tab span{
+
+}
+
+/* 侧边栏*/
 #contSide{
 	width: 240px;
 }
