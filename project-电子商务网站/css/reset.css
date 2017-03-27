@@ -1,7 +1,7 @@
 /* CSS Document */
 
 /* 样式重置（reset） */
-html,body,section,option,h1,h2,h3,h4,p,dl,dt,dd,ul,ol,form,input,textarea,th,td,select{margin:0;padding: 0;}
+html,body,section,option,h1,h2,h3,h4,p,dl,dt,dd,ul,ol,form,input,textarea,sub,th,td,select{margin:0;padding: 0;}
 em{ font-style: normal; }
 li{ list-style: none; }
 a{ text-decoration: none; }
