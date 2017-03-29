@@ -53,7 +53,7 @@ content{
 .tabArea .tabBox{
 	clear: both;
 	width: 348px;
-	height: 200px;
+	height: 384px;
 	float: left;
 	position: relative;
 	z-index: 1;
@@ -178,4 +178,19 @@ footer{
 	position: relative;
 	top: 12px;
 	right: 12px;
+}
+
+/* 定义tab选项卡样式 */
+.tabTitle{
+	display: block;
+	width: 300px;
+	height: 24px;
+	margin: 0 auto;
+	padding: 0;
+	background: yellow;
+}
+
+.tabTitle li{
+	float: left;
+	background: red;
 }
