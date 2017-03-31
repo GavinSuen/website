@@ -180,17 +180,73 @@ footer{
 	right: 12px;
 }
 
-/* 定义tab选项卡样式 */
+/* 定义tab选项卡头部样式 */
 .tabTitle{
-	display: block;
+	display: inline-block;
 	width: 300px;
 	height: 24px;
-	margin: 0 auto;
-	padding: 0;
-	background: yellow;
+	line-height: 24px;
+	text-align: center;
+	position: relative;
+	left: 25px;
+	top: 6px;
 }
 
 .tabTitle li{
+	display: inline-block;
+	width: 98px;
+	height: 24px;
 	float: left;
-	background: red;
+	position: relative;
+	z-index: 1; 
+	border: 1px solid #dadada;
+	border-bottom: none;
+	border-radius: 3px 3px 0 0;
+}
+
+.tabTitle .active{
+	position: relative;
+	z-index: 3;
+	border-bottom: 1px solid #fff;
+}
+
+/* 列表样式 */
+.conList{
+
+}
+
+.conList a{
+	display: inline-block;
+	width: 277px;
+}
+
+.conList dt{
+	text-align: center;
+}
+
+.conList .liHead{
+	margin-top: 5px;
+	line-height: 25px;
+	color: #999999;
+	font-size: 11px;
+}
+
+.conList dd a{
+	color: #454545;
+}
+
+.conList dd a:hover{
+	text-decoration: underline;
+}
+
+.conList dd .liInfo{
+	color: #c75d61;
+	font-size: 11px;
+	line-height: 26px;
+}
+
+.conList hr{
+	height: 1px;
+	border: none;
+	border-top: 1px dotted #cbcbca;
 }

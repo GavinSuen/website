@@ -416,10 +416,48 @@
 	color: #6e6e6e;
 }
 
-.tabCont{
+.advice{
+	height: 298px;
+}
+
+.advice .tabCont{
 	width: 318px;
 	height: 230px;
-	background: pink;	
+	margin: 0 auto;
+	position: absolute;
+	top: 66px;
+	left: 15px;
+	z-index: 2;
+	border-top: 1px solid #dadada;
+}
+
+.advice .tabCont .liIcon{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	position: relative;
+	left: 15px;
+	top: 2px;
+	background: pink;
+}
+
+.advice .advice_search{
+	position: absolute;
+	z-index: 999;
+	height: 56px;
+	line-height: 56px;
+	left: 27px;
+	bottom: 5px;
+}
+
+.advice .advice_search i{
+	display: inline-block;
+	width: 24px;
+	height: 23px;
+	position: relative;
+	left: 10px;
+	top: 6px;
+	background: url(../img/tab_icon.png) no-repeat 0 -11px;
 }
 
 /* 侧边栏*/
