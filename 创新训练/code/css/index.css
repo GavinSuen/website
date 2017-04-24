@@ -1,0 +1,118 @@
+
+#site-nav{
+	width: 100%;
+	height: 26px;
+	border: 1px solid #E5E5E5;
+	background: #F2F2F2;
+	line-height: 26px;
+}
+
+#login-info em{
+	font-style: normal;
+}
+
+#login-info a{
+	color: #999;
+}
+
+#login-info a:hover{
+	color: #c40000;
+}
+
+.quick-menu{
+	height: 26px;
+	line-height: 26px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.quick-menu li{
+	position: relative;
+	float: left;
+	padding: 0 5px;
+}
+
+.quick-menu li a{
+	color: #999;
+}
+
+.quick-menu li a:hover{
+	color: #c40000; 
+}
+
+.index-logo img{
+	width: 200px;
+	height: 92px;
+	background: pink;
+}
+
+.index-search{
+	position: absolute;
+	top: 25px;
+	right: 0;
+}
+
+.search-box{
+	border: 3px solid #999;
+	float: left;
+}
+
+.index-search input[type=search]{
+	width: 447px;
+	height: 30px;
+	padding: 5px;
+	border: none;
+}
+
+.index-search input[type=button]{
+	width: 90px;
+	height: 30px;
+	border: none;
+}
+
+.nav-title{
+	width: 270px;
+	height: 33px;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 33px;
+	background: pink;
+	text-align: center;
+}
+
+.main-nav{
+	width: 908px;
+	height: 33px;
+	line-height: 33px;
+	background: yellow;
+	padding-left: 22px; 
+}
+
+.main-nav a{
+	font-size: 13px; 
+	margin-right: 40px;
+	color: black;
+	font-weight: 700;
+}
+
+.main-nav a:hover{
+	color: #c40000;
+}
+
+.slider-nav-content{
+	width: 270px;
+}
+
+.slider-nav-item{
+	height: 60px;
+}
+
+.nav-head{
+	width: 64px;
+	text-align: center;
+	line-height: 60px;
+	background: #333;
+}
+
+.nav-content{}
