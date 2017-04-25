@@ -102,17 +102,98 @@
 
 .slider-nav-content{
 	width: 270px;
+	height: 486px;
 }
 
-.slider-nav-item{
-	height: 60px;
+.nav-item{
+	width: 270px;
+	height: 48.6px;
+	background: #f5f5f5;
 }
 
-.nav-head{
-	width: 64px;
+.nav-item-title{
+	display: inline-block;
+	width: 70px;
+	height: 48.6px;
+	line-height: 48.6px;
 	text-align: center;
-	line-height: 60px;
-	background: #333;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+	background: rgb(44,44,44);
 }
 
-.nav-content{}
+.nav-item-title a{
+	color: #fff;
+}
+
+.nav-item-list{
+	float: left;
+	padding: 0 10px;
+	line-height: 24px;
+	overflow: hidden;
+}
+
+.nav-item-list a{
+	color: #666;
+}
+
+.nav-item-list a:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+.banner-container{
+	width: 930px;
+	height: 486px;
+}
+
+.index-banner{
+	width: 730px;
+	height: 486px;
+}
+
+.banner{
+	width: 730px;
+	height: 340px;
+	position: relative;
+	overflow: hidden;
+}
+
+.banner .banner-box{
+	width: 2190px;
+	height: 340px;
+	font-size: 0;
+	position: relative;
+	left: -730px;
+}
+
+.arraw-dn{
+	position: absolute;
+	width: 30px;
+	height: 100px;
+	border: none;
+	background: rgba(88,88,88,.4);
+	top: 120px;
+	left: 700px;
+}
+
+.arraw-up{
+	position: absolute;
+	width: 30px;
+	height: 100px;
+	border: none;
+	background: rgba(88,88,88,.4);
+	top: 120px;
+}
+
+.arraw-up:hover,
+.arraw-dn:hover{
+	background: rgba(33,33,33,.5);
+}
+
+.index-login{
+	width: 200px;
+	height: 486px;
+	background: pink;
+}
