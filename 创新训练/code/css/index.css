@@ -200,12 +200,24 @@
 	display: inline-block;
 	width: 10px;
 	height: 10px;
+	border-radius: 10px;
 	margin: 10px;
 	background: yellow;
 }
 
+.banner .banner-img{
+	width: 730px;
+	font-size: 0;
+}
+
+.banner-img img{
+	width: 360px;
+	height: 136px;
+	margin-top: 10px;
+}
+
 .index-login{
-	width: 194px;
+	width: 190px;
 	height: 486px;
 	background: #fff;
 	margin-left: 6px;
@@ -221,36 +233,4 @@
 	margin: 15px auto;
 	border-radius: 6px;
 	background: #FF6000;
-}
-
-.index-login-tab{
-	width: 174px;
-	height: 30px;
-	position: relative;
-	left: 10px;
-	line-height: 30px;
-	text-align: center;
-}
-
-.index-login-tab .tab-btn{
-	float: left;
-	width: 87px;
-}
-
-.tab-content{
-	width: 174px;
-	height: 378px;
-	position: absolute;
-	left: 0px;
-	text-align: left;
-	display: none;
-}
-
-.index-login-tab .tab-btn:hover{
-	background: orange;
-}
-
-.index-login-tab .tab-btn:hover > .tab-content{
-	display: block;
-	background: orange;
 }
