@@ -15,6 +15,15 @@ header{
 	position: relative;
 }
 
+.slide-bar{
+	width: 40px;
+	height: 100%;
+	background: pink;
+	position: fixed;
+	top: 0px;
+	right: 0;
+}
+
 .fl{
 	float: left;
 }

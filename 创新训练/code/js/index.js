@@ -1,5 +1,4 @@
 //banner
-
 (function banner(){
 	var imgs = document.querySelectorAll(".banner-pic");
 	var box = document.querySelector(".banner-box");
@@ -53,7 +52,23 @@
 		btnLi[num].style.background="blue";
 	}
 	activeImg();
+})();
 
+//login-tab
+(function loginTab(){
+	var btns = document.querySelectorAll(".consult-tab .tab-btn");
+	var cons = document.querySelectorAll(".consult-content");
 
-
+	for(var i=0;i<btns.length;i++){
+		btns[i].index=i;
+		btns[i].onclick=function(){
+			//alert(this.index);
+			for(var j=0;j<btns.length;j++){
+				btns[j].style.background="#fff";
+				cons[j].style.display="none";
+			}
+			this.style.background="yellow";
+			cons[this.index].style.display="block";
+		};
+	}
 })();
