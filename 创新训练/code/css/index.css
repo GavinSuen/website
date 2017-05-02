@@ -76,7 +76,7 @@
 	font-size: 13px;
 	font-weight: 700;
 	line-height: 33px;
-	background: pink;
+	background: #2c2c2c;
 	text-align: center;
 }
 
@@ -106,7 +106,7 @@
 .nav-item{
 	width: 260px;
 	height: 48.6px;
-	background: #999;
+	background: #f6f6f6;
 }
 
 .nav-item-title{
@@ -250,11 +250,11 @@
 	float: left;
 	cursor: pointer;
 	border-radius: 5px 5px 0 0;
-	background: #fff;
+	background: #999;
 }
 
 .consult-tab .active{
-	background: yellow;
+	background: #fff;
 }
 
 .consult-tab ~ .active{
@@ -266,7 +266,7 @@
 	height: 379px;
 	display: none;
 	margin: 0 auto;
-	background: yellow;
+	background: #fff;
 }
 
 .tabItem{
@@ -281,7 +281,6 @@
 	height: 65px;
 	float: left;
 	margin: 15px 0 15px 15px;
-	background: pink; 
 }
 
 .tabItem .item a{}

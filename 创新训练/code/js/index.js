@@ -64,10 +64,10 @@
 		btns[i].onclick=function(){
 			//alert(this.index);
 			for(var j=0;j<btns.length;j++){
-				btns[j].style.background="#fff";
+				btns[j].style.background="#999";
 				cons[j].style.display="none";
 			}
-			this.style.background="yellow";
+			this.style.background="#fff";
 			cons[this.index].style.display="block";
 		};
 	}
